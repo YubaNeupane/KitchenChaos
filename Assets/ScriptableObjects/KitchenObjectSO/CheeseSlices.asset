@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4403406854bf1d34880c0fd7dc811e1a, type: 3}
-  m_Name: TomatoSlices
+  m_Name: CheeseSlices
   m_EditorClassIdentifier: 
-  prefab: {fileID: 3123110371505618616, guid: 0859b8b965100804e8fe1ae90f85d46d, type: 3}
-  sprite: {fileID: 21300000, guid: c9f08c3c1ae2a364aaeaa3712540b1d4, type: 3}
-  name: Tomato Slices
+  prefab: {fileID: 3123110371505618616, guid: 1a00b14602317154dac69c504bb80d30, type: 3}
+  sprite: {fileID: 21300000, guid: 549cb4f2b86d1b84d8cd41c1cfde26c8, type: 3}
+  name: Cheese Slices
