@@ -2,17 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TrashCounter : MonoBehaviour
+public class TrashCounter : BaseCounter
 {
-    // Start is called before the first frame update
-    void Start()
+    public override void Interact(Player player)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if(player.HasKitchenObject()){
+            player.GetKitchenObject().DestroySelf();
+        }
     }
 }
